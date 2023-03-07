@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    position: relative;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    line-height: 1.4;
+    color: #000;
+    min-width: 320px;
+}
+
+.topnav {
+    width: 100%;
+    height: 100px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, .1);
+}
+
+.topnav .container {
+    padding: 15px;
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aquamarine;
+
+}
+
+.topnav-menu{
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.topnav-menu li {
+    display: inline-block;
+}
+
+.topnav-menu li a {
+    display: inline-block;
+    color: #000;
+    opacity: 0.8;
+    text-decoration: none;
+    padding: 15px;
+    transition: all .1s ease-in-out;
+}
+
+.topnav-menu li a:hover {
+    color: coral;
+}
+
+.topnav-wrap {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.user {
+    margin-left: 10px;
+    padding: 10px 20px;
+    background-color: coral;
+    border-radius: 100px;
+    text-decoration: none;
+    color: #000;
+    transition: all .1s ease-in-out;
+}
+.user:hover {
+    color: green;
+}
+
+.user-log {
+    display: inline-block;
+}
+
+.topnav-brand {
+    font-weight: 700;
+    font-size: 32px;
+    text-decoration: none;
+    color: #000;
+    padding: 10px;
+}
+h3 {
+    text-decoration: none;
+    color: #000;
+    padding: 15px;
+    background-color: azure;
+    
+}
+
+.form {
+    background-color: aliceblue;
+    padding: 10px;
+    box-shadow: 4px 10px #000;
+}
+footer {
+    background-color: ghostwhite;
+    text-align: center;
+}
